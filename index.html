@@ -12,7 +12,7 @@
 
     <style>
       /* Desktop View */
-      @media only screen and (min-width: 960px){
+      /* @media only screen and (min-width: 960px){
             .main-container{
               width:100%;
               background-color:#000000;
@@ -27,7 +27,6 @@
               font-family:'Times New Roman', Times, serif;
             }
       
-            /* } */
             .content-container{
               width:600px;
               text-align:center;
@@ -49,10 +48,12 @@
               background-color:#000000;
               font-family:'Times New Roman', Times, serif;
             }   
-          }
+          } */
       
+
+
             /* Tablet View */
-          @media only screen and (max-width: 960px){
+          /* @media only screen and (max-width: 960px){
             .main-container{
               width:100%;
               background-color:#000000;
@@ -73,11 +74,19 @@
               width:100%;
               background-color:#000000;
             }   
-          }
+          } */
       
+
+
             /* Smartphone View */
-          @media only screen and (max-width: 600px){
-            .main-container{
+          @media only screen and (max-width: 550px){
+            .disclaimer{
+              display: none;
+            }
+          }
+
+
+            /* .main-container{
               width:100%;
               background-color:#000000;
             }
@@ -96,7 +105,7 @@
             .logo{
               width:100%;
             }   
-          }    
+          }     */
       
       </style>
 
@@ -107,74 +116,71 @@
 
 
 <body>
-
-
-
-<!-- begin disclaimer announcing no intent of mcdonald proprietary infringements -->
-<table class="header" align="center" border="0" cellspacing="0" cellpadding="0"
-width="100%" style="background-color:gold;">
-
-          <!-- <tr style="background-color:#52b8ff;"> -->
-                <tr>
-                        <td style="width:25%; text-align:left; font-family:Arial, Helvetica, sans-serif; border-right:1px solid black; color:#292929; border:1px solid black;"> 
-                            <p style="margin:0; padding:20px 20px 20px 20px; font-size:14px; font-weight:500; color:#292929; font-family:Arial, Helvetica, sans-serif;">
-                            <span style="font-weight:700; font-style:italic;">DISCLAIMER:</span> <br/>These clones are for "Demo Purposes Only". No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets.
-                            </p>
-                        </td> 
-                
-                        <td style="width:50%; text-align:left; font-family:Arial, Helvetica, sans-serif; border-right:1px solid black; color:#292929; border:1px solid black;"> 
-                            <p style="margin:0; padding:5px 20px 20px 20px; font-size:14px; font-weight:500; color:#292929; font-family:Arial, Helvetica, sans-serif;">
-                                <span style="font-weight:700; font-style:italic;">README:</span> <br/>Below is a clone of an email i received from Udemy. It is a welcome letter offering reasons for me to become a regular user of the products and services available through Udemy's courses.
-                            </p>   
-                        </td>
-          
-                        <td style="width:25%; padding-left:20px; padding-right:10px; font-size:14px; font-weight:500; color:#292929; font-family:Arial, Helvetica, sans-serif; border:1px solid black;">
-                            <h4 style="font-weight:700; font-style:italic;">
-                              TECHNOLOGIES USED:
-                            </h4>
-                            <a>
-                              <img src="https://i.postimg.cc/52vmHw0R/facebook-icon.png" 
-                                  alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                                <img src="https://i.postimg.cc/yxgZMH3b/twitter-icon.png" 
-                                alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                              <img src="https://i.postimg.cc/9F991ch4/youtube-icon.png" 
-                              alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                              <img src="https://i.postimg.cc/52vmHw0R/facebook-icon.png" 
-                                  alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                                <img src="https://i.postimg.cc/yxgZMH3b/twitter-icon.png" 
-                                alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                              <img src="https://i.postimg.cc/9F991ch4/youtube-icon.png" 
-                              alt="twitter icon" />
-                            </a>
-                        </td>                
-                      </tr>
-                  </table> 
-                <!-- end disclaimer announcing no intention of mcdonald proprietary infringements -->
-            <hr/>
-
-
-
 <!-- Begin a TABLE for the HEADER -->
 <!--begin #main-wrapper{width:100%;}-->
 <table id="main-wrapper" align="center" width="100%" cellspacing="0" 
 cellpadding="0" border="0" style="background:#ffffff; margin:0 auto;">
 
-<tr>
+    <tr>
+      <td>
+
+<!-- begin disclaimer announcing no intent of mcdonald proprietary infringements -->
+<table class="disclaimer" align="left" border="0" cellspacing="0" cellpadding="0" 
+width="100%" style="background-color:gold; border:1px dashed blue; 
+text-align:left; left:0; top:0;">
+    <tr>
+        <td style="width:33.33%; height:30px; padding:7px; text-align:left; left:0; top:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; border-right:1px solid black; color:#292929; border:1px solid black;">                              
+            Disclaimer: These clones are for "Demo Purposes Only". No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets.
+        </td> 
+    
+        <td style="width:33.33%; height:30px; padding:7px; text-align:left; left:0; top:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; border-right:1px solid black; color:#292929; border:1px solid black;">
+            Readme: Below is a clone of an email i received from Udemy. It is a welcome letter offering reasons for me to become a regular user of the products and services available through Udemy's courses.
+        </td>
+
+        <td style="width:33.33%; height:30px; padding:7px; text-align:left; left:0; top:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; border-right:1px solid black; color:#292929; border:1px solid black;">
+              Technologies used:
+
+            <a>
+              <img src="https://i.postimg.cc/52vmHw0R/facebook-icon.png" 
+                  alt="twitter icon" />
+            </a>
+            <a align="center">
+                <img src="https://i.postimg.cc/yxgZMH3b/twitter-icon.png" 
+                alt="twitter icon" />
+            </a>
+            <a align="center">
+              <img src="https://i.postimg.cc/9F991ch4/youtube-icon.png" 
+              alt="twitter icon" />
+            </a>
+            <a align="center">
+              <img src="https://i.postimg.cc/52vmHw0R/facebook-icon.png" 
+                  alt="twitter icon" />
+            </a>
+            <a align="center">
+                <img src="https://i.postimg.cc/yxgZMH3b/twitter-icon.png" 
+                alt="twitter icon" />
+            </a>
+            <a align="center">
+              <img src="https://i.postimg.cc/9F991ch4/youtube-icon.png" 
+              alt="twitter icon" />
+            </a>
+        </td>
+    </tr>
+</table>
+<!-- end disclaimer announcing no intention of mcdonald proprietary infringements -->
+
+  </td>
+  </tr>
+
+  <hr/>
+
+  <tr>
   <td>
-    <!--begin #htmlemail-wrapper{width:600px;}-->
-    <table class="htmlemail-wrapper" align="center" width="600px" cellspacing="0" cellpadding="0" border="0" style="background:#dddddd; margin:0 auto;">
-<tr>
-  <td>
+
+<!--begin #htmlemail-wrapper{width:600px;}-->
+<table class="htmlemail-wrapper" align="center" width="600px" cellspacing="0" cellpadding="0" border="0" style="background:#dddddd;">
+    <tr>
+      <td>
 
 <!--begin row for Udemy Logo and email metadata-->
 <!--begin table for Udemy Logo and email metadata-->
@@ -311,7 +317,7 @@ border="0" width="100%" style="background-color:#ffffff; color:#292929;">
           <td style="text-align:center; padding:20px 10px; color:#292929;">
           <img src="images/Focused+material.png" width="150" height="150" alt="logo of fucused material" />
               <h3>Focused material</h3>
-              <p>Structured courses sh3ave you from hunting down information across the web.
+              <p>Structured courses save you from hunting down information across the web.
               </p>
         </td>
       </tr>
@@ -372,7 +378,7 @@ border="0" width="100%" style="background-color:#ffffff; color:#292929;">
     <td style="text-align:left; padding:20px 20px; background-color:#dddddd;">
         <table>
           <a href="https://bnc.lt/Xfid/5jsnqaJCQI?utm_source=email-Pro&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_medium=Welcome_AAll_T1_mob_test_n&utm_content=udemy.6890005&data_h=&utm_term=MOBILE_APP_BANNER" style="background-color:red; padding:20px 50px; 
-          color:#ffffff; border-radius:5px;">
+          color:#ffffff; border-radius:5px; text-decoration:none;">
             Get the app 
           </a>
         </table>
