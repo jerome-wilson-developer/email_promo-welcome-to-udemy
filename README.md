@@ -1,5 +1,5 @@
 # email_promo-welcome-to-udemy
-This is a clone of an promotional html email from udemy university.
+This is a clone of a promotional email from udemy online courses. Udemy is in the top 5 most commonly used online schools for short, niche, educational, instructional courses taught by people who are actually finanacially successful in the industry they are teaching. This email displays the benefits and features of using Udemy to continue your "Life-Long-Learning". This email also has several helpful "quick-links" to answer questions from students considering using Udemy. 
 
 https://jerome-wilson-developer.github.io/email_promo-welcome-to-udemy/
 
