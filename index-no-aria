@@ -61,7 +61,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
 <tr>
   <td>
 <table class="disclaimer" width="100%" align="center" border="0" 
-cellspacing="0" cellpadding="0" style="background-color:wheat; 
+cellspacing="0" cellpadding="0" style="background-color:gold; 
 text-align:left; margin:0; padding:0;">
 <tr>
     <td style="width:30%; text-align:left; 
@@ -87,7 +87,7 @@ text-align:left; margin:0; padding:0;">
         text-decoration:underline;">
               README: WELCOME TO UDEMY COURSES
       </span>
-      <br/>I cloned this promotional email sent from Udemy's marketing department. It promotes their reasons for people to buy educational courses from them. Udemy is in the top 5 most commonly used online schools for short, niche, educational, instructional courses taught by people who are actually finanacially successful in the industry they are teaching. This clone displays the features and benefits of using Udemy to advance your career and your life-long learning ambitions. It also provides several useful 'quickLinks' to their commonly visited webpages, links to download their app, and also helpful links to their commonly requested FAQ pages.
+      <br/>i cloned this email from Udemy's marketing department. It promotes their reasons for people to buy educational courses from Udemy. This clone displays the features and benefits of using Udemy to advance your career and your life-long learning needs. It also provides several useful 'quickLinks' to their commonly visited webpages, links to download their app, and also helpful links to their commonly requested FAQ pages.
     </td>
 
     <td style="width:30%; text-align:left; 
@@ -100,36 +100,43 @@ text-align:left; margin:0; padding:0;">
         font-size:.9rem; letter-spacing:1px;">
               TECHNOLOGIES USED:
         </span>
-        <br/> html tables, html5, css3, responsive, webpack,
-        <br/>web accessibility,
-              <a align="center" href="https://github.com/jerome-wilson-developer/email_promo-welcome-to-udemy" target="_blank">
+        <br/> html tables, html5, css3, mobile responsive, 
+        <br/>web accessible,
+        <!-- <br/> -->
+          <!-- <span> -->
+              <a align="center" href="https://github.com/jerome-wilson-developer/email_promo-welcome-to-udemy">
                 GITHUB
-              </a>, lighthouse, 
+              </a>,
+
+          <!-- </span>             -->
+                npm, 
+          <!-- <span> -->
               <a href="https://welcome-to-udemy-courses.netlify.com/">
                 NETLIFY
               </a>.
+          </span>
         <hr/>
-        <a align="center" style="padding:20px 2px 5px 2px;">
+        <a align="center" style="padding:10px 2px 5px 2px;">
           <img src="images/icon-html-table-png-128x128-black-8.png" 
           width="70" height="50" 
           alt="icon for html5 tables"/>
         </a>
-        <a align="center" style="padding:20px 2px 5px 2px;">
+        <a align="center" style="padding:10px 2px 5px 2px;">
           <img src="images/icon-html5-png-128x128.png" 
           width="50" height="50" 
           alt="icon for html5"/>
         </a>
-        <a align="center" style="padding:20px 2px 5px 2px;">
+        <a align="center" style="padding:10px 2px 5px 2px;">
           <img src="images/icon-css3-png-128x128.png" 
           width="50" height="50" 
           alt="icon for css3"/>
-        <a align="center" style="padding:20px 2px 5px 2px;">
+        <a align="center" style="padding:10px 2px 5px 2px;">
           <img src="images/mobile-responsive-3devices-4.jpg" 
           width="70" height="50" 
           alt="icon for mobile responsive"/>
         </a>
         </a>
-        <a align="center" style="padding:20px 2px 5px 2px;">
+        <a align="center" style="padding:10px 2px 5px 2px;">
           <img src="images/icon-wai-aria-accessibility-png-128x128.png" 
           width="50" height="50" 
           alt="icon for web accessibility"/>
@@ -141,7 +148,7 @@ text-align:left; margin:0; padding:0;">
 </tr>
 <!-- end disclaimer announcing no intention of mcdonald proprietary infringements -->
 
-<!-- begin the row for the main-email-table-wrapper @.width:600px; -->
+<!-- begin the main-row for the main-email-table-wrapper @.width:600px; -->
   <tr>
       <td>
         <!-- begin the main-email-table-wrapper for the entire contents inside the email @.width:600px; -->
@@ -150,19 +157,14 @@ text-align:left; margin:0; padding:0;">
         border="0" style="background:#cccccc;">
 
 
-<!-- begin row for the "header-section" -->
-<!-- begin row for "email-metadata" section -->
+<!--begin row for table for Udemy Logo and email metadata-->
     <tr>
       <td>
-<!-- begin table for "email-metadata" section -->
-<!-- aria landmark role: banner -->
-<table role="banner" class="header" align="center" 
-cellspacing="0" cellpadding="0" border="0" 
-width="100%" style="background-color:#ffffff; 
-font-family:Arial, Helvetica, sans-serif; 
-font-size:14px; color:#393939; ">
-    <tr style="text-align:left; 
-    background-color:#ffffff;">
+<table class="header" align="center" cellspacing="0" cellpadding="0" 
+border="0" width="100%" style="background-color:#ffffff; 
+color:#393939; font-family:Arial, Helvetica, sans-serif; 
+font-size:14px; margin;">
+    <tr style="text-align:left; background-color:#ffffff;">
         <td>
             <p>Sent from Outlook</p>
             <hr/>  
@@ -173,21 +175,21 @@ font-size:14px; color:#393939; ">
         </td>
     </tr>        
 </table>
-<!-- end table for "email-metadata" section -->
+<!--end table for Udemy Logo and email metadata-->
   </td>
     </tr>
-<!-- end row for "email-metadata" section -->
+<!--end row for Udemy Logo and email metadata-->
 
 
+<!--begin row for Udemy corporate logo-->
 <tr>
   <td>
       <!--begin table for Udemy corporate logo-->
-      <!-- aria landmark role: logo -->
-      <table role="logo" class="logo" align="center" border="0" 
+      <table class="header" align="center" border="0" 
       cellspacing="0" cellpadding="0" width="100%" 
-      style="background-color:#ffffff; 
-      color:#393939; padding:30px 20px 20px 20px;
-      font-family:Arial, Helvetica, sans-serif; font-size:14px;">
+      style="background-color:#ffffff; color:#393939; 
+      font-family:Arial, Helvetica, sans-serif; font-size:14px;
+      padding:30px 20px 20px 20px;">
           <tr style="text-align:center;">
               <td>
                 <img src="images/Udemy-logo-email-desktopTM.png" 
@@ -199,13 +201,14 @@ font-size:14px; color:#393939; ">
       <!--end table for Udemy corporate logo-->      
   </td>
 </tr>
+<!--end row for Udemy corporate logo-->
 
+
+<!--begin main-row for the "header-section"-->
 <tr>
   <td>
-    <!-- begin table for the "welcome-to-udemy" section -->
-    <table class="main" align="center" width="100%" 
-    cellspacing="0" cellpadding="0" border="0" 
-    style="background:#393939; color:#ffffff;">
+    <table class="header" align="center" width="100%" 
+    cellspacing="0" cellpadding="0" border="0" style="background:#393939; color:#ffffff;">
         <tr>  
             <td style="text-align:center; padding-bottom: 30px;">
               <h1>Welcome to Udemy</h1>
@@ -219,34 +222,35 @@ font-size:14px; color:#393939; ">
               </a>
             </td>
         </tr>
-    </table>
-    <!-- end table for the "welcome-to-udemy" section -->
+    </table><!--end table for the "header-section"-->
   </td>
 </tr>
+<!-- end the main-row for the "header-section"-->
 
-<tr>
+
+<tr><!-- begin the main row for the "start-learning" section -->
   <td>
-    <!-- begin table for the "hero-image" section --> 
-    <table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="text-align: center;">
+    <!--begin the table for the "start-learning" row-->    
+    <table class="" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="text-align: center;">
       <tr>
           <td style="padding:0px; margin:0px;">
               <img src="images/udemy-hero-image-1-660x343.png" width="" height="" alt="" />
           </td>
       </tr>       
     </table>
-    <!-- end table for the "hero-image" section --> 
+    <!--end the main-table for the "start-learning" section--> 
   </td>
 </tr>
-<!-- end row for the "header-section" -->
+<!--end the main-row for the "start-learning" section-->
 
 
 
-<!-- begin row for the main-section ... 3 sub-sections -->
-<tr>
+<tr><!--begin the main-row for the "getting-started" section-->
   <td>
-    <!--begin table for the "getting-started" section-->
+    <!--begin the main-table for the "getting-started" section-->
     <table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" 
     style="background:#cccccc; margin-top:20px;">
+
       <tr>
           <td style="text-align:center; padding:10px 10px; color:#393939;">
             <h2>Getting started</h2>
@@ -256,6 +260,7 @@ font-size:14px; color:#393939; ">
                 </p>
         </td>
       </tr>
+
       <tr>
           <td style="text-align:center; padding:10px 10px; color:#393939;">
             <h3>Plan your path</h3>
@@ -264,6 +269,7 @@ font-size:14px; color:#393939; ">
               </p>
         </td>
       </tr>
+
       <tr>
           <td style="text-align:center; padding:10px 10px; color:#393939;">
             <h3>Learn on your own terms</h3>
@@ -287,6 +293,7 @@ font-size:14px; color:#393939; ">
               </p>
         </td>
       </tr>
+
       <tr>
           <td style="text-align:center; padding:20px 10px; color:#292929;">
           <img src="images/Focused+material.png" width="150" height="150" alt="logo of fucused material" />
@@ -314,14 +321,14 @@ font-size:14px; color:#393939; ">
 
 
 
-
+<!-- begin the main-row for the "learn-on-the-go" section -->  
 <tr>
     <td align="left" width="100%" cellspacing="0" 
     cellpadding="0" border="0" style="font-family:Arial, 
     Helvetica, sans-serif; font-size:14px; font-weight:500; 
     color:#ffffff; letter-spacing:3px; text-align:center; 
     padding:10px 10px;">
-<!--begin table for "left-column" -->
+<!--begin the main-table for the "left-column"-->
 <table align="left" width="50%" cellspacing="0" 
 cellpadding="0" border="0" style="background:#cccccc; 
 font-family:Arial, Helvetica, sans-serif; font-size:14px; 
@@ -329,24 +336,19 @@ font-weight:500; color:#ffffff; letter-spacing:3px;
 text-align:center; margin-bottom:15px;">
   <tr>
     <td>
-        <table>
-        <!-- begin table for large image -->
+        <table><!--begin table for the "left-column"-->
             <tr>
               <td>
                   <img src="images/udemy-content-image-2-314x228.png" 
                   width="" height="" alt="350x350" />
               </td>
             </tr>
-        </table>
-        <!-- end table for large image -->
+        </table><!--end table for the "left-column"-->
     </td>
   </tr>
 </table>
-<!-- end table for "left-column" -->
-
-
-
-<!--begin table for right-column for  -->
+<!--end row for the "left-column"-->
+<!--begin the main-table for the right-column for the content-->
 <table align="left" width="50%" cellspacing="0" cellpadding="0" border="0" style="background-color:#cccccc; margin-bottom:15px;">
   <tr>
     <td style="font-family:Arial, Helvetica, sans-serif; 
@@ -359,17 +361,13 @@ text-align:center; margin-bottom:15px;">
         </p>
     </td>
   </tr>
-
-
+<!-- begin row for the "get the app" button -->  
   <tr>
     <td style="font-family:Arial, Helvetica, sans-serif; 
     font-size:14px; font-weight:500; color:#ffffff; 
     letter-spacing:3px; text-align:center; text-align:left; 
     padding:20px 20px; background-color:#cccccc;">
-      <!-- begin table for the "get-the-app" button -->  
-      <table align="left" width="100%" cellspacing="0" 
-      cellpadding="0" border="0" 
-      style="background-color:#cccccc;">
+      <table align="left" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#cccccc;">
           <a href="https://bnc.lt/Xfid/5jsnqaJCQI?utm_source=email-Pro&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_medium=Welcome_AAll_T1_mob_test_n&utm_content=udemy.6890005&data_h=&utm_term=MOBILE_APP_BANNER" 
           style="background-color:red; padding:15px 35px; 
           color:#ffffff; border-radius:5px; 
@@ -377,22 +375,14 @@ text-align:center; margin-bottom:15px;">
               Get the app 
           </a>
       </table>
-      <!-- end table for the "get-the-app" button --> 
     </td>
 </tr>    
-
-
-<!-- end -->
+<!-- end row for the "get the app" button -->
+<!-- end the right-column for the content-->
     </table> 
   </td>
 </tr>
 <!-- end row for the table for the "learn-on-the-go" section -->
-<!-- end row for the main-section ... 3 sub-sections -->
-
-
-
-
-
 
 
 
@@ -584,7 +574,7 @@ text-align:center; margin-bottom:15px;">
         
     </td>
   </tr>
-<!-- end the row for the main-email-table-wrapper @.width:600px; -->
+<!-- end the main-row for the main-email-table-wrapper @.width:600px; -->
 
 </table>
 <!-- end the table-wrapper for the entire email @.width:100%; -->
