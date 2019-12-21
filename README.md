@@ -8,6 +8,7 @@ DISCLAIMER:
 This corporation's "email clone" is for Demonstration Purposes Only. No infringements are intended against their corporate copyrights, trademarks, patents, intellectual properties, or any other proprietary assets. 
 
 Github pages link: https://jerome-wilson-developer.github.io/email_promo-welcome-to-udemy/
+
 Netlify link: https://welcome-to-udemy-courses.netlify.com/
 
 D E L E T E    T H I S    B4    D E P L O Y
