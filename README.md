@@ -11,6 +11,14 @@ Github pages link: https://jerome-wilson-developer.github.io/email_promo-welcome
 
 Netlify link: https://welcome-to-udemy-courses.netlify.com/
 
+
+
+
+
+
+
+
+
 D E L E T E    T H I S    B4    D E P L O Y
 My 5 Phases of Web Development:
 Phase#1: Planning the Project.
