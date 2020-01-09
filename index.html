@@ -33,13 +33,11 @@
 
 <body>
 <!-- begin the table-wrapper for the entire email @width:100%; -->
-<table id="main-wrapper" align="center" width="100%" cellspacing="0" 
+<table tabindex="-1" id="main-wrapper" align="center" width="100%" cellspacing="0" 
 cellpadding="0" border="0" style="background:#ffffff; 
 font-family:Arial, Helvetica, sans-serif; font-size:14px;">
-
 <tr>
   <td>
-
       <!-- begin disclaimer -->
       <table class="disclaimer" width="100%" align="center" border="0" 
       cellspacing="0" cellpadding="0" style="background-color:aqua; 
@@ -135,9 +133,8 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
     <td>
         <!-- begin table for "email-metadata" section -->
         <!-- header:tabindex="0", and, aria-landmark=role:banner -->
-        <table tabindex="0" role="banner" class="header" 
-        align="center" cellspacing="0" cellpadding="0" 
-        border="0" width="100%" 
+        <table tabindex="0" role="complementary" align="center" cellspacing="0" 
+        cellpadding="0" border="0" width="100%" 
         style="background-color:#ffffff; 
         font-family:Arial, Helvetica, sans-serif; 
         font-size:14px; color:#393939; ">
@@ -174,12 +171,12 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                     style="padding-bottom: 15px;" />                  
                 </td>
                 <td>
-                    <a style="color:#393939; font-size:1.2rem; font-weight:100; text-decoration:none;" href="https://www.udemy.com/join/login-popup/?next=/home/my-courses/learning/%3Fdata_h%3D%26utm_campaign%3D_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._%26utm_content%3Dudemy.6890005%26utm_medium%3DWelcome_AAll_T1_mob_test_n%26utm_source%3Demail-Pro%26utm_term%3DHEADER">
+                    <a role="link" style="color:#393939; font-size:1.2rem; font-weight:100; text-decoration:none;" href="https://www.udemy.com/join/login-popup/?next=/home/my-courses/learning/%3Fdata_h%3D%26utm_campaign%3D_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._%26utm_content%3Dudemy.6890005%26utm_medium%3DWelcome_AAll_T1_mob_test_n%26utm_source%3Demail-Pro%26utm_term%3DHEADER">
                         <p>My Courses</p>
                     </a>                              
                 </td>
                 <td>
-                    <a style="color:#393939; font-size:1.2rem; font-weight:100; text-decoration:none;" href="https://www.udemy.com/?data_h=&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_content=udemy.6890005&utm_medium=Welcome_AAll_T1_mob_test_n&utm_source=email-Pro&utm_term=HEADER">
+                    <a role="link" style="color:#393939; font-size:1.2rem; font-weight:100; text-decoration:none;" href="https://www.udemy.com/?data_h=&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_content=udemy.6890005&utm_medium=Welcome_AAll_T1_mob_test_n&utm_source=email-Pro&utm_term=HEADER">
                         <p>Features</p>
                     </a>       
                 </td>
@@ -191,7 +188,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
 <tr>
     <td>
         <!-- begin table for the "welcome-to-udemy" section -->
-        <table align="center" width="100%" 
+        <table role="banner" class="header" align="center" width="100%" 
         cellspacing="0" cellpadding="0" border="0" 
         style="background:#393939; color:#ffffff;">
             <tr>  
@@ -201,7 +198,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                     of a growing marketplace that connects
                       <br/>learners and instructors around the world.
                   </p>
-                  <a href="https://www.udemy.com/?data_h=&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_content=udemy.6890005&utm_medium=Welcome_AAll_T1_mob_test_n&utm_source=email-Pro&utm_term=GRADIENT_HERO_CTA" 
+                  <a role="button" href="https://www.udemy.com/?data_h=&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_content=udemy.6890005&utm_medium=Welcome_AAll_T1_mob_test_n&utm_source=email-Pro&utm_term=GRADIENT_HERO_CTA" 
                   style="color:#ffffff; 
                   background-color:red; border-radius:3px; 
                   padding:10px 20px; text-decoration:none; 
@@ -222,7 +219,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
         cellpadding="0" border="0" 
         style="text-align:center;">
             <tr>
-                <td style="padding:0px; margin:0px;">
+                <td role="img" style="padding:0px; margin:0px;">
                     <img src="images/udemy-hero-image-1-660x343.png" 
                     width="" height="" 
                     alt="large image of a happy udemy female student" />
@@ -238,7 +235,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
 <tr>
     <td>    
         <!-- begin parent table for the main-section with 3 sub-sections -->
-        <table tabindex="" class="main" align="center" 
+        <table role="complementary" class="getting-started" align="center" 
         width="100%" cellspacing="0" cellpadding="0" border="0" 
         style="background:#cccccc;">
           <!-- begin row for the "getting-started" section -->
@@ -288,7 +285,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                 <td>
                     <!-- sub-section#2 -->
                     <!-- begin table for the 'why-udemy' section -->
-                    <table class="sub-section-2" align="center" 
+                    <table role="complementary" class="why-udemy-section" align="center" 
                     width="90%" cellspacing="0" cellpadding="0" 
                     border="0" style="background:#ffffff; 
                     border-radius:7px; margin-top:20px;">
@@ -362,7 +359,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                     <!-- begin table for large image -->
                         <tr>
                           <td>
-                              <img src="images/udemy-content-image-2-314x228.png"
+                              <img role="img" src="images/udemy-content-image-2-314x228.png"
                               alt="picture of 2 udemy web pages" />
                           </td>
                         </tr>
@@ -378,7 +375,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
         style="background-color:#cccccc; 
         margin-bottom:15px;">
             <tr>
-              <td style="font-family:Arial, Helvetica, sans-serif; 
+              <td role="complementary" class="on-the-go-section" style="font-family:Arial, Helvetica, sans-serif; 
               font-size:14px; font-weight:500; color:#ffffff; 
               letter-spacing:3px; text-align:center; text-align:left; 
               padding:20px 20px; color:#292929;">
@@ -389,7 +386,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
               </td>
             </tr>
             <tr>
-              <td style="font-family:Arial, Helvetica, sans-serif; 
+              <td role="complementary" class="get-the-app-section" style="font-family:Arial, Helvetica, sans-serif; 
               font-size:14px; font-weight:500; color:#ffffff; 
               letter-spacing:3px; text-align:center; text-align:left; 
               padding:20px 20px; background-color:#cccccc;">
@@ -397,7 +394,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                 <table align="left" width="100%" cellspacing="0" 
                 cellpadding="0" border="0" 
                 style="background-color:#cccccc;">
-                    <a href="https://bnc.lt/Xfid/5jsnqaJCQI?utm_source=email-Pro&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_medium=Welcome_AAll_T1_mob_test_n&utm_content=udemy.6890005&data_h=&utm_term=MOBILE_APP_BANNER" 
+                    <a role="link" href="https://bnc.lt/Xfid/5jsnqaJCQI?utm_source=email-Pro&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_medium=Welcome_AAll_T1_mob_test_n&utm_content=udemy.6890005&data_h=&utm_term=MOBILE_APP_BANNER" 
                     style="background-color:red; padding:15px 35px; 
                     color:#ffffff; border-radius:5px; 
                     text-decoration:none; font-size:1.2rem;">
@@ -418,7 +415,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
   <td>
         <!-- begin the main-table-wrapper for the entire footer content -->
         <!-- header:tabindex="", and, aria landmark=role:banner -->
-        <table tabindex="" role="contentinfo" class="footer" 
+        <table role="contentinfo" class="footer" 
         align="center" width="100%" cellspacing="0" 
         cellpadding="0" border="0" 
         style="margin:0px; padding:0px; background:#292929; 
@@ -433,7 +430,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                     padding:50px 30px 10px 30px;">
                         <tr>
                             <td align="center;">
-                                <a href="https://www.udemy.com/email/manage-notifications/?email_data=eyJlbWFpbCI6Implcm9tZS13aWxzb24tZGV2ZWxvcGVyQGhvdG1haWwuY29tIn0:1iRrIe:NPVs44qWr0h5jeRyCmmmsbhms7E&email=jerome-wilson-developer@hotmail.com&source=email:unsubscribe" 
+                                <a role="link" href="https://www.udemy.com/email/manage-notifications/?email_data=eyJlbWFpbCI6Implcm9tZS13aWxzb24tZGV2ZWxvcGVyQGhvdG1haWwuY29tIn0:1iRrIe:NPVs44qWr0h5jeRyCmmmsbhms7E&email=jerome-wilson-developer@hotmail.com&source=email:unsubscribe" 
                                 style="font-family:Arial, Helvetica, sans-serif; 
                                 font-weight:600; font-size:16px; color:#ffffff;
                                 text-decoration:none; text-transform:uppercase;">
@@ -441,7 +438,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                                 </a>
                             </td>
                             <td align="center;">
-                                <a href="https://support.udemy.com/hc/en-us/?utm_source=email-Pro&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_medium=Welcome_AAll_T1_mob_test_n&utm_content=udemy.6890005&data_h=&utm_term=FOOTER_NO_DEAL" 
+                                <a role="link" href="https://support.udemy.com/hc/en-us/?utm_source=email-Pro&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_medium=Welcome_AAll_T1_mob_test_n&utm_content=udemy.6890005&data_h=&utm_term=FOOTER_NO_DEAL" 
                                 style="font-family:Arial, Helvetica, sans-serif; 
                                 font-weight:600; font-size:16px; color:#ffffff; 
                                 text-decoration:none; text-transform:uppercase;">
@@ -449,7 +446,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                                 </a>
                             </td>
                             <td align="center;">
-                                <a href="https://email.udemy.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlYQGkmoyMiD5wP90DSpCrBt5zeh0wzbgbiH9isUOLr7PrAlFzdCf0PKIze9kBRmKzgKjVXMtX%3DYQpglLjHJlYQGozepAyaDwcg80ONwhX7uF9r0pzd80MUza7Ric4zbszgWiAcnzaYBv29zdT4mF5Ybfzf&_ei_=EolaGGF4SNMvxFF7KucKuWPDEHN3pDisAcQFkw2om698VIGQ5VPsOTpAYKzC_x8DqP7dsTc9TIGcXJrAnYoeRNXpP_Dqv61IEDT7mo8dvkDqhLUEz5wRR7JZOz0C7XA" 
+                                <a role="link" href="https://email.udemy.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlYQGkmoyMiD5wP90DSpCrBt5zeh0wzbgbiH9isUOLr7PrAlFzdCf0PKIze9kBRmKzgKjVXMtX%3DYQpglLjHJlYQGozepAyaDwcg80ONwhX7uF9r0pzd80MUza7Ric4zbszgWiAcnzaYBv29zdT4mF5Ybfzf&_ei_=EolaGGF4SNMvxFF7KucKuWPDEHN3pDisAcQFkw2om698VIGQ5VPsOTpAYKzC_x8DqP7dsTc9TIGcXJrAnYoeRNXpP_Dqv61IEDT7mo8dvkDqhLUEz5wRR7JZOz0C7XA" 
                                 style="font-family:Arial, Helvetica, sans-serif; 
                                 font-weight:600; font-size:16px; color:#ffffff; 
                                 text-decoration:none; text-transform:uppercase;">
@@ -479,21 +476,21 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                     style="text-align:center; color:#ffffff; 
                     margin-top:10px; margin-bottom:40px;">
                       <tr>
-                          <td align="center;">
+                          <td role="link" align="center;">
                               <a href="https://about.udemy.com/careers/?data_h=&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_content=udemy.6890005&utm_medium=Welcome_AAll_T1_mob_test_n&utm_source=email-Pro&utm_term=FOOTER_NO_DEAL" 
                               style="font-family:Arial, Helvetica, sans-serif; 
                               font-weight:300; font-size:1.0; color:#ffffff;">
                                   Careers at Udemy
                               </a>
                           </td>
-                          <td align="center;">
+                          <td role="link" align="center;">
                               <a href="https://business.udemy.com/?utm_source=email-Pro&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_medium=Welcome_AAll_T1_mob_test_n&utm_content=udemy.6890005&data_h=?ref=email-footer" 
                               style="font-family:Arial, Helvetica, sans-serif; 
                               font-weight:300; font-size:1.0; color:#ffffff;">
                                   Get Udemy for Business
                               </a>
                           </td>
-                          <td align="center;">
+                          <td role="link" align="center;">
                               <a href="https://www.udemy.com/teaching/?data_h=&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_content=udemy.6890005&utm_medium=Welcome_AAll_T1_mob_test_n&utm_source=email-Pro&utm_term=FOOTER_NO_DEAL" 
                               style="font-family:Arial, Helvetica, sans-serif; 
                               font-weight:300; font-size:1.0; color:#ffffff;">
@@ -523,11 +520,11 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                     style="padding:20px 50px;">
                         <tr>                
                             <td align="center">
-                              <a href="https://udemy.app.link/wqVCkXBG4N?utm_term=FOOTER_NO_DEAL">
+                              <a role="link" href="https://udemy.app.link/wqVCkXBG4N?utm_term=FOOTER_NO_DEAL">
                                 <img src="images/icon-apple-2.png"/>
                               </a>
                             </td>                
-                            <td align="center">
+                            <td role="link" align="center">
                               <a href="https://udemy.app.link/wqVCkXBG4N?utm_term=FOOTER_NO_DEAL">
                                 <img src="images/icon-android-2.png"/>
                               </a>
@@ -541,7 +538,7 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
             <!-- end row#3 for the android-apple-app-downloads -->
             <!-- begin row#4 for the 3-social-media-downloads -->
             <tr>
-                <td align="center" style="font-family:Arial, Helvetica, sans-serif; 
+                <td role="complementary" class="connect-section" align="center" style="font-family:Arial, Helvetica, sans-serif; 
                       font-weight:700; font-size:1.0; 
                       color:#ffffff; letter-spacing:3px; 
                       padding:10px 10px 10px 10px;"> 
@@ -555,13 +552,13 @@ font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                     width="50%" cellspacing="0" cellpadding="0" 
                     border="0" style="margin-bottom:20px;">
                         <tr>
-                            <td align="center">
+                            <td role="link" align="center">
                                 <a href="https://www.facebook.com/udemy/">
                                   <img src="images/icon-facebook-2.png" 
                                   alt="facebook icon" style="padding:10px 10px;"/>
                                 </a>
                             </td>
-                            <td align="center">
+                            <td role="link" align="center">
                                 <a href="https://twitter.com/udemy">
                                   <img src="images/icon-twitter-2.png" 
                                   alt="twitter icon" style="padding:10px 10px;"/>
