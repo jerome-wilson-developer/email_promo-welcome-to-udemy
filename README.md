@@ -1,12 +1,19 @@
-# email_promo-welcome-to-udemy
-I cloned this promotional email sent from Udemy's marketing department. It promotes their reasons for people to buy educational courses from them. Udemy is in the top 5 most commonly used online schools for short, niche, educational, instructional courses taught by people who are actually finanacially successful in the industry they are teaching. This clone displays the features and benefits of using Udemy to advance your career and your life-long learning ambitions. It also provides several useful 'quickLinks' to their commonly visited webpages, links to download their app, and also helpful links to their commonly requested FAQ pages.
+# Promotional html emails
 
-TECHNOLOGIES USED: 
-html tables, html5, css3, mobile responsive, web accessible, GITHUB , npm, NETLIFY . 
+## WELCOME TO UDEMY COURSES 
+I cloned this promotional email sent from Udemy's marketing department which promotes their reasons for people to buy educational courses from them. The courses are taught by people already finanacially successful in the industry they are teaching. Udemy lists the features and benefits they offer to help advance your career and life-long learning ambitions. They also provide useful 'quick-links' to their community. 
 
-DISCLAIMER: 
-This corporation's "email clone" is for Demonstration Purposes Only. No infringements are intended against their corporate copyrights, trademarks, patents, intellectual properties, or any other proprietary assets. 
+## TECHNOLOGIES USED:
+html tables, html5, css3, mobile responsive, npm, webpack, web accessibility, NVDA, GITHUB , lighthouse audit, NETLIFY.
 
-Github pages link: https://jerome-wilson-developer.github.io/email_promo-welcome-to-udemy/
+## DISCLAIMER:
+The "corporation clones" below are for Demonstration Purposes Only. No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets. All images are the property of its respective owners. Please contact me if there are any issues. Thank you!
 
-Netlify link: https://welcome-to-udemy-courses.netlify.com/_@99% / python3.x_99%.
+## ACCESSIBILITY:
+I used accessibility code to increase this page's web accessibility. I mostly used aria-role landmarks and tabindex code to increase focus and access. There is a strong movement in the web development world to build and code web content that is accessible to everybody. Lawsuits and accessility standards are happenning regularly. Some statistics report there are over 1 billion people worldwide who have difficulties using web content because of different disabilities.
+
+### Github pages link:
+https://jerome-wilson-developer.github.io/email_promo-welcome-to-udemy/
+
+### Netlify link:
+https://welcome-to-udemy-courses.netlify.com/
