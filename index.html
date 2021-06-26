@@ -32,47 +32,35 @@
 
 
 <body>
-<!-- begin the table-wrapper for the entire email @width:100%; -->
-
-<tr>
-    <td>
-      <!-- begin the table for main-email-table-wrapper @width:600px; -->
-      <table class="main-container" 
-      align="center" width="600px" cellspacing="0" 
-      cellpadding="0" border="0" 
-      style="background:#cccccc;">       
-
-
-<!-- begin row for the "header-section" -->
+<!-- begin main table-wrapper @ 100% width -->
 <tr>
   <td>
-      <!-- begin a brief README and a disclaimer -->
-      <table class="disclaimer" width="100%" align="center" border="0" 
-      cellspacing="0" cellpadding="0" style="text-align:left; margin:0; padding:0; border:1px solid #a8a8a8; border-radius: 20px; background-color: white;">
-          <tr>
-            <td style="width:100%; text-align:left; font-family:Arial, Helvetica, 
-            sans-serif; font-size:16px; font-weight: 500; line-height: 1.2;letter-spacing: 2px; color:#292929; padding:20px; 
-            vertical-align:auto;">
-                <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
-                text-decoration:underline;">
-                      DISCLAIMER: 
-                </span>
-                <br/>
-                The "corporation clones" below are for Demonstration Purposes Only. 
-                No infringements are intended against any corporate copyrights, 
-                trademarks, intellectual properties, or other proprietary assets. 
-                All images are the property of its respective owners. Please contact 
-                me if there are any issues at Jerome-Wilson-Developer@hotmail.com 404-604-8561. Thank you!
-            </td>
-          </tr>
+    <table class="main-container" align="center" width="100%" cellspacing="0" 
+    cellpadding="0" border="0" style="background:#000000;">
 
-            <!-- border:1px solid rgb(163, 160, 160); -->
+<!-- begin the main html email wrapper @ 600px width -->
+<tr>
+    <td>
+      <table class="main-container" align="center" width="600px" cellspacing="0" 
+      cellpadding="0" border="0" style="background:#cccccc;">
+
+      
+<!-- begin row for "header-section" -->
+<tr>
+  <td>
+      <!-- begin section for a README, a disclaimer, and a "technologies used" row -->
+      <table class="disclaimer" width="100%" align="center" border="0" 
+      cellspacing="0" cellpadding="0" style="text-align:left; padding:0; 
+      border:10px solid #00ff00; border-style: inset; border-radius: 20px; 
+      background-color: white; max-width: 635px;">
+
           <tr>
-            <td style="width:100%; text-align:left; font-family:Arial, Helvetica, 
-            sans-serif; font-size:16px; font-weight: 500; line-height: 1.2;letter-spacing: 2px; color:#292929; padding:20px; 
-            vertical-align:auto;">
-                <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
-                text-decoration:underline;">
+            <td style="width:100%; text-align:left; font-family:Arial, 
+            Helvetica, sans-serif; font-size:16px; font-weight: 500; 
+            line-height: 1.2; letter-spacing: 2px; color:#292929; 
+            padding:20px;">
+                <span style="font-weight:600; font-size:1.1rem; 
+                letter-spacing:2px; text-decoration:underline;">
                       README: WELCOME TO UDEMY COURSES
                 </span>
               <br/>
@@ -84,42 +72,68 @@
               They also provide useful 'quick-links' to their community.
             </td>
           </tr>
-    </table>
-        
-                
-      <tr>
-        <td>
-          <!-- begin table for "email-metadata" section -->
-          <!-- header:tabindex="0", and, aria-landmark=role:banner -->
-          <table tabindex="0" role="complementary" align="center" cellspacing="0" 
-          cellpadding="0" border="0" width="100%" 
-          style="background-color:#ffffff; 
-          font-family:Arial, Helvetica, sans-serif; 
-          font-size:14px; color:#393939; ">
-              <tr style="text-align:left; 
-              background-color:#ffffff;">
-                  <td>
-                      <p>Sent from Outlook</p>
-                      <hr/>  
-                      <p>From: Udemy</p>
-                      <p>Sent: February 22, 2019 4:32AM</p>
-                      <p>To: jerome-wilson-developer@hotmail.com</p>
-                      <p>Subject: Welcome to Udemy!</p>
-                  </td>
-              </tr>        
-          </table>
 
-        </td>
-      </tr>
+          <tr>
+            <td style="width:100%; text-align:left; font-family:Arial, 
+            Helvetica, sans-serif; font-size:16px; font-weight: 500; 
+            line-height: 1.2;letter-spacing: 2px; color:#292929; 
+            padding:20px;">
+                <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
+                text-decoration:underline;">
+                      TECHNOLOGIES USED ON THIS PROJECT
+                </span>
+              <br/>
+                HTML, CSS, Media queries, Responsive, Accessibility, Google lighthouse. 
+                For further inspection, see <a href="https://jerome-wilson-developer.github.io/email_promo-welcome-to-udemy/">Github</a> 
+                and <a href="https://welcome-to-udemy-courses.netlify.app/">
+                  Netlify</a> links.
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="width:100%; text-align:left; 
+            font-family:Arial, Helvetica, sans-serif; 
+            font-size:16px; font-weight: 500; line-height: 1.2; 
+            letter-spacing: 2px; color:#292929; padding:20px;">
+                <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
+                text-decoration:underline;">
+                      DISCLAIMER: 
+                </span>
+                <br/>
+                This "corporate email marketing clone" below is for demo purposes only. 
+                No infringements are intended against any copyrights, 
+                trademarks, intellectual properties, or other proprietary assets. If there are any ligal issues, please contact me at: Jerome-Wilson-Developer@hotmail.com, 404-604-8561. Thank you!
+            </td>
+          </tr>
+      </table>
+      <!-- end header-section for a README, a disclaimer, and a "technologies used" row -->
 
-
-        <!-- end table for "email-metadata" section -->
-    </td>
+          <!-- begin header-section for "email metadata" row -->
+          <tr>
+            <td>
+              <!-- header:tabindex="0", and, aria-landmark=role:banner -->
+              <table tabindex="0" role="complementary" align="center" cellspacing="0" 
+              cellpadding="0" border="0" width="100%" style="background-color:#ffffff; 
+              font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#393939;
+              padding: 20px;">
+                  <tr style="text-align:left; 
+                  background-color:#ffffff;">
+                      <td>
+                          <p>Sent from Outlook</p>
+                          <hr/>  
+                          <p>From: Udemy</p>
+                          <p>Sent: February 22, 2019 4:32AM</p>
+                          <p>To: jerome-wilson-developer@hotmail.com</p>
+                          <p>Subject: Welcome to Udemy!</p>
+                      </td>
+                  </tr>        
+              </table>
+            </td>
+          </tr>
+          <!-- end header-section for "email metadata" row -->
+  </td>
 </tr>
-
-
-
-
+<!-- end header section for a README, a disclaimer, and a "technologies used" -->
 
 <tr>
     <td>
@@ -162,8 +176,8 @@
             <tr>  
                 <td style="text-align:center; padding-bottom: 30px;">
                   <h1>Welcome to Udemy</h1>
-                  <p style="margin-bottom:30px;">You are now a part 
-                    of a growing marketplace that connects
+                  <p style="margin-bottom:30px;">
+                    You are now a part of a growing marketplace that connects
                       <br/>learners and instructors around the world.
                   </p>
                   <a role="button" href="https://www.udemy.com/?data_h=&utm_campaign=_._cn_Welcome_._us_AAll_._tn_mob_._tv_test_._tl_T1_._tg_n_._et_5_._eg_1_._la_en_._&utm_content=udemy.6890005&utm_medium=Welcome_AAll_T1_mob_test_n&utm_source=email-Pro&utm_term=GRADIENT_HERO_CTA" 
@@ -194,24 +208,23 @@
                 </td>
             </tr>       
         </table>
-        <!-- end table for the "hero-image" section --> 
+        <!-- end table for the "hero-image" section -->
     </td>
 </tr>
 <!-- end row for the "header-section" -->
 
 <!-- begin parent row for the main-section with 3 sub-sections -->
 <tr>
-    <td>    
-        <!-- begin parent table for the main-section with 3 sub-sections -->
-        <table role="complementary" class="getting-started" align="center" 
+    <td>
+      <table role="complementary" class="getting-started" align="center" 
         width="100%" cellspacing="0" cellpadding="0" border="0" 
         style="background:#cccccc;">
+        
           <!-- begin row for the "getting-started" section -->
             <tr>
                 <td>
                     <!-- header:tabindex="1", and, aria landmark=role:main -->
                     <!-- sub-section#1 -->
-                    <!--begin table for the "getting-started" section-->
                     <table class="sub-section-1" align="center" 
                     width="100%" cellspacing="0" cellpadding="0" border="0" 
                     style="background:#cccccc; margin-top:20px;">
@@ -243,11 +256,11 @@
                                 </p>
                             </td>
                         </tr>
-                      </table>
-                    <!-- end table for the "getting-started" section -->              
+                      </table>              
                 </td>
             </tr>
             <!-- end row for the "getting-started" section -->
+
             <!-- begin row for the 'why-udemy' section -->
             <tr>
                 <td>
@@ -293,16 +306,15 @@
                                     insights you can apply right away.</p>
                             </td>
                         </tr>
-                    </table>
-                    <!-- end table for the 'why-udemy' section -->
+                      </table>
                 </td>
             </tr>
             <!-- end row for the 'why-udemy' section -->
-        </table>
-          <!-- end parent table for the main-section with 3 sub-sections -->
+          </table>
     </td>
 </tr>
 <!-- end parent row for the main-section with 3 sub-sections -->
+
 <!-- begin row for the "learn-on-the-go" section -->
 <tr>
     <td class="sub-section-3" align="left" width="100%" 
@@ -378,20 +390,18 @@
 </tr>        
 <!-- end row for the main-section ... 3 sub-sections -->
 
-<!-- begin the footer-row -->
+<!-- begin footer row -->
 <tr>
   <td>
-        <!-- begin the main-table-wrapper for the entire footer content -->
         <!-- header:tabindex="", and, aria landmark=role:banner -->
         <table role="contentinfo" class="footer" 
         align="center" width="100%" cellspacing="0" 
         cellpadding="0" border="0" 
         style="margin:0px; padding:0px; background:#292929; 
         font-family:Arial, Helvetica, sans-serif; color:#ffffff;">
-            <!-- begin row#1 for the footer-menu-nav-list-items  -->
+            <!-- begin the table for the footer-menu-nav-list-items  -->
             <tr>
                 <td>
-                    <!-- begin the table for the footer-menu-nav-list-items  -->
                     <table align="center" width="70%" cellspacing="0" 
                     cellpadding="0" border="0" 
                     style="font-family:Arial, Helvetica, sans-serif;
@@ -422,11 +432,11 @@
                                 </a>
                             </td>                
                         </tr>
-                    </table>
-                    <!-- end the table for the footer-menu-nav-list-items -->
+                      </table>
                 </td>
             </tr>       
-            <!-- end row#1 for the footer-menu-nav-list-items -->
+            <!-- end the table for the footer-menu-nav-list-items -->
+
             <!-- begin row#2 for the address and 3 faq links -->
             <tr>
                 <td align="center" 
@@ -471,6 +481,7 @@
                 </td>
             </tr>
             <!-- end row#2 for the address and 3 faq links -->
+
             <!-- begin row#3 for the android-apple-app-downloads -->
             <tr>
                 <td align="center" style="font-family:Arial, Helvetica, sans-serif; 
@@ -504,6 +515,7 @@
                 </td>
             </tr>
             <!-- end row#3 for the android-apple-app-downloads -->
+            
             <!-- begin row#4 for the 3-social-media-downloads -->
             <tr>
                 <td role="complementary" class="connect-section" align="center" style="font-family:Arial, Helvetica, sans-serif; 
@@ -538,15 +550,21 @@
                 </td>
             </tr>
             <!-- end row#4 for the 3-social-media-downloads -->
-        </table>
-        <!-- end the main-table-wrapper for the entire footer content -->
+            
+      </table>
     </td>
   </tr>
-</table>
-<!-- end the row for the main-email-table-wrapper @.width:600px; -->
-    </td>
-  </tr>
-</table>
-<!-- end the table-wrapper for the entire email @.width:100%; -->
+  <!-- end footer row-->
+
+    </table>
+  </td>
+</tr>
+<!-- end the main html email wrapper @ 600px width -->
+
+    </table>
+  </td>
+</tr>
+<!-- end main table-wrapper @ 100% width -->
+
 </body>
 </html>
