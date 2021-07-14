@@ -1,10 +1,10 @@
 # Promotional html emails
 
 ## WELCOME TO UDEMY COURSES 
-I cloned this promotional email sent from Udemy's marketing department which promotes their reasons for people to buy educational courses from them. The courses are taught by people already finanacially successful in the industry they are teaching. Udemy lists the features and benefits they offer to help advance your career and life-long learning ambitions. They also provide useful 'quick-links' to their community. 
+This Udemy email clone screams minimalism. More white space and less text content. More images, colors and icons. The minimalist layout creates an intuitive and instinctive understanding of the email's message. 
 
 ## TECHNOLOGIES USED:
-html tables, html5, css3, mobile responsive, npm, webpack, web accessibility, NVDA, GITHUB , lighthouse audit, NETLIFY.
+html tables, html, css, mobile responsive, npm, web accessibility, github, netlify, google lighthouse audit.
 
 ## DISCLAIMER:
 The "corporation clones" below are for Demonstration Purposes Only. No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets. All images are the property of its respective owners. Please contact me if there are any issues. Thank you!
