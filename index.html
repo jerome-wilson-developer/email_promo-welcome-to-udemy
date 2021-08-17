@@ -22,10 +22,7 @@
       }
       .main-container{
         width:100%
-      }            
-      /* .disclaimer{
-        display:block;
-      } */
+      }
     }     
 </style>
 </head>
@@ -50,22 +47,23 @@
   <td>
       <!-- begin section for a README, a disclaimer, and a "technologies used" row -->
       <table class="disclaimer" width="100%" align="center" border="0" 
-      cellspacing="0" cellpadding="0" style="text-align:left; padding:0; 
-      border:10px solid #00ff00; border-style: inset; border-radius: 20px; 
+      cellspacing="0" cellpadding="0" style="text-align:left; padding:20px 5px 5px 5px; 
+      border:10px solid #00ff00; border-style: inset; border-radius: 10px; 
       background-color: white; max-width: 635px; margin: 15px 15px 15px 10px;">
 
 
 
 
-      <!-- begin add 2 buttons to the header -->
+      <!-- begin add 2 nav buttons to the header -->
         <tr>
           <td style="width:100%; text-align:left; font-family:Arial, 
           Helvetica, sans-serif; font-size:14px; font-weight: 500; 
           line-height: 1.0;letter-spacing: 2px; color:#292929; 
           padding:20px;">
               <a role="link" href="https://jerome-wilson-web-dev.com/" 
-              style="background-color:#00ff00; padding:10px 25px; 
-              color:#000000; border-radius:5px; font-weight: 400;
+              style="background-color:#00ff00;
+              border:1px solid #000000; padding:10px 25px; 
+              color:#000000; border-radius:7px; font-weight: 400;
               text-decoration:none; font-size:1.0rem;">
               Back to Resume homepage</a>       
           </td>
@@ -76,28 +74,29 @@
           line-height: 1.0;letter-spacing: 2px; color:#292929; 
           padding:20px;">
               <a role="link" href="https://jerome-wilson-web-dev.com/public/portfolio/proj-email-promotional.html" 
-              style="background-color:#00ff00; padding:10px 25px; 
-              color:#000000; border-radius:5px; font-weight: 400;
+              style="background-color:#00ff00;
+              border:1px solid #000000; padding:10px 25px; 
+              color:#000000; border-radius:7px; font-weight: 400;
               text-decoration:none; font-size:1.0rem;">
               Back to Promotional Emails home page</a>       
           </td>
         </tr>
-        <!-- end add 2 buttons to the header -->
-
-
-
+        <!-- end add 2 nav buttons to the header -->
 
           <tr>
             <td style="width:100%; text-align:left; font-family:Arial, 
             Helvetica, sans-serif; font-size:16px; font-weight: 500; 
             line-height: 1.2; letter-spacing: 2px; color:#292929; 
-            padding:20px;">
+            padding:10px;">
                 <span style="font-weight:600; font-size:1.1rem; 
                 letter-spacing:2px; text-decoration:underline;">
                       README: WELCOME TO UDEMY COURSES
                 </span>
               <br/>
-              This Udemy email clone screams minimalism. More white space and less text content. More images, colors and icons. The minimalist layout creates an intuitive and instinctive understanding of the email's message.
+              This Udemy email clone screams minimalism. More white space and 
+              less text content. More images, colors and icons. The minimalist 
+              layout creates an intuitive and instinctive understanding of 
+              the email's message.
             </td>
           </tr>
 
@@ -105,14 +104,16 @@
             <td style="width:100%; text-align:left; font-family:Arial, 
             Helvetica, sans-serif; font-size:16px; font-weight: 500; 
             line-height: 1.2;letter-spacing: 2px; color:#292929; 
-            padding:20px;">
+            padding:10px;">
                 <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
                 text-decoration:underline;">
                       TECHNOLOGIES USED ON THIS PROJECT
                 </span>
               <br/>
-              html tables, html, css, mobile responsive, npm, web accessibility, github, netlify, google lighthouse audit. For further inspection, see <a href="https://github.com/jerome-wilson-developer/email_promo-welcome-to-udemy">Github</a> 
-                 and <a href="https://welcome-to-udemy-courses.netlify.com/">
+              html tables, html, css, mobile responsive, npm, web accessibility, 
+              github, netlify, google lighthouse audit. For further inspection, 
+              see <a href="https://github.com/jerome-wilson-developer/email_promo-welcome-to-udemy"> Github</a> and 
+              <a href="https://welcome-to-udemy-courses.netlify.com/">
                   Netlify</a> links.
             </td>
           </tr>
@@ -121,13 +122,13 @@
             <td style="width:100%; text-align:left; 
             font-family:Arial, Helvetica, sans-serif; 
             font-size:16px; font-weight: 500; line-height: 1.2; 
-            letter-spacing: 2px; color:#292929; padding:20px;">
+            letter-spacing: 2px; color:#292929; padding:10px;">
                 <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
                 text-decoration:underline;">
                       DISCLAIMER: 
                 </span>
                 <br/>
-                The "corporate email marketing clone" below is for demo purposes only. No infringements are intended against any copyrights, trademarks, intellectual properties, or other proprietary assets. If there are any legal issues, please contact me at: Jerome-Wilson-Developer@hotmail.com, 404-604-8561. Thank you!
+                The "corporate email marketing clone" below is for demo purposes only. No infringements are intended against any copyrights, intellectual properties, proprietary assets, etc. For any legal issues, please contact me at: Jerome-Wilson-Developer@hotmail.com, 404-604-8561. Thank you!
             </td>
           </tr>
       </table>
@@ -136,13 +137,11 @@
           <!-- begin header-section for "email metadata" row -->
           <tr>
             <td>
-              <!-- header:tabindex="0", and, aria-landmark=role:banner -->
-              <table tabindex="0" role="complementary" align="center" cellspacing="0" 
-              cellpadding="0" border="0" width="100%" style="background-color:#ffffff; 
-              font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#393939;
-              padding: 20px;">
-                  <tr style="text-align:left; 
-                  background-color:#ffffff;">
+              <table align="center" cellspacing="0" cellpadding="0" border="0" 
+              width="100%" tabindex="0" role="complementary" 
+              style="background-color:#ffffff; font-family:Arial, Helvetica, 
+              sans-serif; font-size:14px; color:#393939; padding: 20px;">
+                  <tr style="text-align:left; background-color:#ffffff;">
                       <td>
                           <p>Sent from Outlook</p>
                           <hr/>  
