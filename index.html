@@ -20,7 +20,7 @@
       }
     }
       /* Smartphone View */
-    @media all and (max-width: 480px){
+    @media all and (min-width: 300px) and(max-width: 480px){
       .main-table-wrapper{
         width:100% !important;
         background-color: #101010 !important;
@@ -28,17 +28,21 @@
       .main-email-container{
         width:100% !important;
       }
-      .disclaimer{        
+      .disclaimer{
+        font-size: 1.0rem !important;
+        font-weight: 500;
+        max-width: 96.0% !important; 
+        /* color: #00ff00 !important; */
+        /* margin: 15px 15px 15px 10px !important; */        
         /* background-color: purple !important; */
-        font-size: 2.0rem !important;max-width: 96.0% !important; 
-        /* margin: 15px 15px 15px 10px !important; */
       }
       .nav-buttons{
-        font-size:1.7rem; 
-        font-weight: 300;
-        line-height: 1.0; 
-        letter-spacing: 1.0; color:#ff00ff;
-        padding:20px;
+        /* font-size:3.7rem !important; 
+        font-weight: 900 !important;
+        line-height: 3.0 !important; 
+        letter-spacing: 3.0 !important; color:#ff00ff !important;
+        padding:50px !important;         */
+        /* background-color: green !important; */
       }
     }     
 </style>
@@ -50,7 +54,7 @@
 <tr>
   <td>
     <table class="main-table-wrapper" align="center" width="100%" cellspacing="0" 
-    cellpadding="0" border="0" style="background:#101010;">
+    cellpadding="0" border="0" style="background:#eeeeee;">
 
 <!-- begin the main html email wrapper @ 600px width -->
 <tr>
@@ -74,7 +78,7 @@
           Helvetica, sans-serif; font-size:1.7rem; font-weight: 300; 
           line-height: 1.0; letter-spacing: 1.0; color:#101010; 
           padding:20px;">
-              <a role="link" href="https://jerome-wilson-web-dev.com/" 
+              <a role="link" href="https://jerome-wilson-web-dev.com/" class="nav-buttons"
               style="background-color:#00ff00;
               border:1px solid #101010; padding:10px 25px; 
               color:#101010; border-radius:7px; font-weight: 100;
@@ -88,7 +92,7 @@
           line-height: 1.0;letter-spacing: 2px; color:#101010; 
           padding:20px;">
               <a role="link" href="https://jerome-wilson-web-dev.com/public/portfolio/proj-email-promotional.html" 
-              style="background-color:#00ff00;
+              class="nav-buttons" style="background-color:#00ff00;
               border:1px solid #000000; padding:10px 25px; 
               color:#101010; border-radius:7px; font-weight: 100;
               text-decoration:none; font-size:1.2rem;">
@@ -99,11 +103,11 @@
 
           <tr>
             <td style="width:100%; text-align:left; font-family:Arial, 
-            Helvetica, sans-serif; font-size:1.2rem; font-weight: 100; 
+            Helvetica, sans-serif; font-size:1.2rem; font-weight: 500; 
             line-height: 1.2; color:#101010; 
             padding:10px;">
                 <span style="font-weight:600; font-size:1.1rem; 
-                letter-spacing:2px; text-decoration:underline;">
+                letter-spacing:1px; text-decoration:underline;">
                       README - WELCOME TO UDEMY COURSES:
                 </span>
               <br/>
@@ -116,10 +120,10 @@
 
           <tr>
             <td style="width:100%; text-align:left; font-family:Arial, 
-            Helvetica, sans-serif; font-size:1.2rem; font-weight: 100; 
+            Helvetica, sans-serif; font-size:1.2rem; font-weight: 500; 
             line-height: 1.2; color:#101010; 
             padding:10px;">
-                <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
+                <span style="font-weight:600; font-size:1.1rem; letter-spacing:1px; 
                 text-decoration:underline;">
                       TECHNOLOGIES USED:
                 </span>
@@ -133,15 +137,15 @@
           
           <tr>
             <td style="width:100%; text-align:left; font-family:Arial, 
-            Helvetica, sans-serif; font-size:1.2rem; font-weight: 100; 
+            Helvetica, sans-serif; font-size:1.2rem; font-weight: 500; 
             line-height: 1.2; color:#101010; 
             padding:10px;">
-                <span style="font-weight:600; font-size:1.1rem; letter-spacing:2px; 
+                <span style="font-weight:600; font-size:1.1rem; letter-spacing:1px; 
                 text-decoration:underline;">
                       DISCLAIMER: 
                 </span>
                 <br/>
-                The "corporate email marketing clone" below is for demo purposes only. No infringements are intended against any copyrights, intellectual properties, proprietary assets, etc. For any legal issues, please contact me at: Jerome-Wilson-Developer@hotmail.com, 404-604-8561. Thank you!
+                This "corporate email" is for demo purposes only. No infringements are intended against any copyrights, intellectual properties, proprietary assets, etc. For any legal issues, contact me at: Jerome-Wilson-Developer@outlook.com, 404-604-8561. Thanks!
             </td>
           </tr>
       </table>
